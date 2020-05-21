@@ -4,7 +4,6 @@
 # Debian specific:  Specifying a file name will cause the first
 # line of that file to be used as the name.  The Debian default
 # is /etc/mailname.
-$mydomain = btcpay.onosendai.eu
 myorigin = $mydomain
 
 smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)
@@ -21,8 +20,7 @@ readme_directory = no
 # TLS parameters
 smtpd_tls_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
 smtpd_tls_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
-#smtpd_use_tls=yes
-smtpd_use_tls=no
+smtpd_use_tls=yes
 smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
 smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
 
@@ -36,7 +34,7 @@ alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 mydestination =
 #relayhost = $mydomain ##Don't allow relay to domain, in case there is an existing MX record there
-mynetworks = 127.0.0.0/8 [::1]/128
+mynetworks = 127.0.0.0/8 [::1]/128 172.16.0.0/12
 mailbox_size_limit = 0
 recipient_delimiter = +
 inet_interfaces = loopback-only
