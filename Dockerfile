@@ -4,7 +4,7 @@ MAINTAINER Citizen010
 ENV LAST_MODIFIED "2002-05-21"
 
 RUN apt-get update
-RUN apt-get install postfix rsyslog -y
+RUN apt-get install postfix rsyslog nano -y
 RUN apt-get upgrade bash -y
 
 ADD conf/main.cf /
