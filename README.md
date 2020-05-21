@@ -5,7 +5,7 @@ Builds a simple "SMTP Only" postfix image.
 
 Emails can be sent only from localhost addresses:
 
- - 127.0.0.1/8
+ - 127.0.0.0/8
  - [::ffff:127.0.0.0]/104
  - [::0]/128
  
