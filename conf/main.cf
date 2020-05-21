@@ -4,6 +4,7 @@
 # Debian specific:  Specifying a file name will cause the first
 # line of that file to be used as the name.  The Debian default
 # is /etc/mailname.
+$mydomain = btcpay.onosendai.eu
 myorigin = $mydomain
 
 smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)
@@ -29,7 +30,7 @@ smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
 # information on enabling SSL in the smtp client.
 
 smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination
-smtpd_recipient_restrictions = permit_mynetworks reject_unauth_destination
+smtpd_recipient_restrictions = permit_mynetworks permit_sasl_authenticated reject_unauth_destination
 ##myhostname = added-at-container-runtime
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
