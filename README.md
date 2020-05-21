@@ -14,8 +14,7 @@ Start the image and include your (docker) hosts DNS entry. e.g.
 
 `docker run -d --name postfix -p 25:25 --restart always citizen010/postfix mail.example.com`
 
-This images is available on docker hub and can be downloaded by running
+This images is available on [docker hub](https://hub.docker.com/r/citizen010/postfix) and can be downloaded by running
 
 `docker pull citizen010/postfix`
 
-[Docker hub image](https://hub.docker.com/r/citizen010/postfix)
