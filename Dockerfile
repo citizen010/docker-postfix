@@ -1,7 +1,7 @@
-FROM ubuntu:16.04
-MAINTAINER Kevin Ellis
+FROM ubuntu:18.04
+MAINTAINER Citizen010
 
-ENV LAST_MODIFIED "2016-04-28 K Ellis"
+ENV LAST_MODIFIED "2002-05-21"
 
 RUN apt-get update
 RUN apt-get install postfix rsyslog -y
