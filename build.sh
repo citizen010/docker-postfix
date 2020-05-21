@@ -1,2 +1,1 @@
-#Change yorkshirekey/nodejs to your name!
-docker build -t yorkshirekev/postfix . && docker tag yorkshirekev/postfix:latest yorkshirekev/postfix:3.1.0
+docker build -t citizen010/postfix . && docker tag citizen010/postfix:latest citizen010/postfix:3.1.0
