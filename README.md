@@ -3,12 +3,11 @@ docker-postfix
 
 Builds a simple "SMTP Only" postfix image.
 
-Emails can be sent from any private network address:
+Emails can be sent only from localhost addresses:
 
- - 127.0.0.1/32
- - 192.168.0.0/16
- - 172.16.0.0/12
- - 10.0.0.0/8
+ - 127.0.0.1/8
+ - [::ffff:127.0.0.0]/104
+ - [::0]/128
  
 Start the image and include your (docker) hosts DNS entry. e.g.
 
