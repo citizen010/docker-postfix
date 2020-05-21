@@ -27,7 +27,7 @@ Go to __Server Settings__ -> __Email server__ and fill as below:
 - __SMTP Server__: your external IP address
 - __PORT__: 25
 - __Sender's display name__: whatever (e.g. BTCPay Store)
-- __Sender's email address__: youchoose@domain.name (e.g. store@domain.name)
+- __Sender's email address__: youchoose@btcpay.domain.name (e.g. store@btcpay.domain.name)
 - __Login__: empty
 - __Password__: empty
 - __Enable SSL__: not checked
@@ -35,7 +35,7 @@ Go to __Server Settings__ -> __Email server__ and fill as below:
 
 Press __Send Test Email__
 
-If should see __Email sent to yourname@yourisp.com, please, verify you received it__  and go check if you received a test email.
+If should see __Email sent to yourname@yourisp.com, please, verify you received it__  and go check (also on Spam folder) if you received a test email.
 
 Press __Save__
 
