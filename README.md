@@ -10,11 +10,11 @@ Emails can be sent only from localhost addresses:
  
 Start the image and include your hosts DNS entry as below:
 
-`docker run -d --name postfix -p 25:25 --restart always citizen010/postfix mail.example.com`
+`docker run -d --name postfix -p 25:25 --restart always citizen010/postfix btcpay.domain.name`
 
 Where the first 25 is the local port and the second 25 is the container port.
 
-Remember to change __mail.example.com__ with your own domain name.
+Remember to change __btcpay.domain.name__ with your own domain name.
 
 This images is available on [docker hub](https://hub.docker.com/r/citizen010/postfix) and can be downloaded by running
 
