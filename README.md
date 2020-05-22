@@ -20,6 +20,17 @@ This images is available on [docker hub](https://hub.docker.com/r/citizen010/pos
 
 `docker pull citizen010/postfix`
 
+# How to find out which Postfix version I'm running
+
+SSH into the machine that host your BTCPayServer instance 
+
+`docker exec -it postfix /bin/bash`
+`postconf mail_version`
+
+You should see something like this:
+
+`mail_version = 3.3.0`
+
 # BTCPayServer config
 
 Go to __Server Settings__ -> __Email server__ and fill as below:
