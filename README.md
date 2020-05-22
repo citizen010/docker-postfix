@@ -32,6 +32,10 @@ You should see something like this:
 
 `mail_version = 3.3.0`
 
+Then exit:
+
+`exit`
+
 # BTCPayServer config
 
 Go to __Server Settings__ -> __Email server__ and fill as below:
