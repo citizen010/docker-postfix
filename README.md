@@ -1,4 +1,4 @@
-## docker-postfix - built for integration with BTCPayServer
+# docker-postfix - integration into BTCPayServer
 
 A simple "SMTP Only" postfix image.
 
