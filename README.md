@@ -25,6 +25,7 @@ This images is available on [docker hub](https://hub.docker.com/r/citizen010/pos
 SSH into the machine that host your BTCPayServer instance 
 
 `docker exec -it postfix /bin/bash`
+
 `postconf mail_version`
 
 You should see something like this:
