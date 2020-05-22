@@ -6,7 +6,7 @@ Emails can be sent everywhere but only from localhost addresses:
 
  - 127.0.0.0/8
  - 172.16.0.0./12
- - [::0]/128
+ - [::1]/128
  
 Start the image and include your hosts DNS entry as below:
 
