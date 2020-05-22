@@ -2,7 +2,7 @@
 
 A simple "SMTP Only" postfix image.
 
-Emails can be sent only from localhost addresses:
+Emails can be sent everywhere but only from localhost addresses:
 
  - 127.0.0.0/8
  - 172.16.0.0./12
