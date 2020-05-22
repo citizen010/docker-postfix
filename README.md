@@ -22,7 +22,7 @@ This images is available on [docker hub](https://hub.docker.com/r/citizen010/pos
 
 # How to find out which Postfix version I'm running
 
-SSH into the machine that host your BTCPayServer instance 
+SSH into the machine that host your BTCPayServer instance and run:
 
 `docker exec -it postfix /bin/bash`
 
