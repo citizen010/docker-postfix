@@ -40,7 +40,7 @@ Then exit:
 
 Go to __Server Settings__ -> __Email server__ and fill as below:
 
-- __SMTP Server__: your external IP address
+- __SMTP Server__: your external IP address (to find out: curl -s ipinfo.io/ip)
 - __PORT__: 25
 - __Sender's display name__: whatever (e.g. BTCPay Store)
 - __Sender's email address__: youchoose@btcpay.domain.name (e.g. store@btcpay.domain.name)
