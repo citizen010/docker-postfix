@@ -51,7 +51,7 @@ Go to __Server Settings__ -> __Email server__ and fill as below:
 
 Press __Send Test Email__
 
-You should see __Email sent to yourname@yourisp.com, please, verify you received it__  and go check (also on Spam folder) if you received a test email.
+You should see __Email sent to yourname@yourisp.com, please, verify you received it__  and then check (also on Spam folder) if a test email was received.
 
 Press __Save__
 
